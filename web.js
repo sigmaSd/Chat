@@ -1,4 +1,10 @@
 (() => {
+  const ws = new WebSocket("ws://localhost:5420");
+  ws.onmessage = async (m) => {
+    console.log("received: ", m.data);
+    await exec(m.data);
+  };
+
   async function exec(value) {
     const event = new Event("keydown");
     event.key = "Enter";
@@ -13,10 +19,4 @@
       ws.send(resp);
     }, { timeout: 60 * 1000 });
   }
-
-  const ws = new WebSocket("ws://localhost:5420");
-  ws.onmessage = async (m) => {
-    console.log("received: ", m.data);
-    await exec(m.data);
-  };
 })();
