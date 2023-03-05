@@ -5,18 +5,19 @@
     await exec(m.data);
   };
 
-  async function exec(value) {
+  async function exec(input) {
     const event = new Event("keydown");
     event.key = "Enter";
-    document.querySelector(".m-0").value = value;
+    document.querySelector(".m-0").value = input;
     document.querySelector(".m-0").dispatchEvent(event);
 
     await new Promise((resolve) => setTimeout(resolve, 3000));
 
     requestIdleCallback(() => {
-      const resp = [...document.querySelectorAll(".markdown")].at(-1).innerText;
-      console.log("sending: ", resp);
-      ws.send(resp);
+      const response =
+        [...document.querySelectorAll(".markdown")].at(-1).innerText;
+      console.log("sending: ", response);
+      ws.send(response);
     }, { timeout: 60 * 1000 });
   }
 })();
