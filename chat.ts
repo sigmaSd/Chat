@@ -1,3 +1,7 @@
+export interface ChatOpts {
+  port: number;
+}
+
 export class Chat {
   /** Did chatGpt isntance connect to our server*/
   connected = false;
@@ -7,8 +11,9 @@ export class Chat {
   /** js quirk: ensure that the user created Chat with `start` not `new`*/
   #init = false;
 
-  static start() {
-    const server = Deno.listen({ port: 5420 });
+  static start(opts?: ChatOpts) {
+    const { port } = opts ?? { port: 5423 } satisfies ChatOpts;
+    const server = Deno.listen({ port });
 
     const chat = new Chat();
 
