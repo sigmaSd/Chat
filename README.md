@@ -34,3 +34,7 @@ console.log(await chat.chat("hello"));
 ## Nvim Plugin
 
 https://github.com/sigmaSd/chat.nvim
+
+## TODO
+
+Add a bing backend []
