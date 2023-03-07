@@ -20,7 +20,7 @@ console.log(await chat.chat("hello"));
 
 ## Demo
 
-https://cdn.discordapp.com/attachments/983096812456017934/1082382192019263488/Screencast_from_2023-03-06_20-14-51.webm
+<img src="https://cdn.discordapp.com/attachments/983096812456017934/1082698462635757579/chat.gif"/>
 
 ## How it works
 
