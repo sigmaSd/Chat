@@ -5,7 +5,7 @@ Deno api wrapper for the free ChatGpt Web interface
 ## Usage
 
 ```typescript
-import { Chat } from "https://deno.land/x/TODONAME/chat.ts";
+import { Chat } from "https://deno.land/x/xchat/chat.ts";
 
 // start the chat server
 const chat = Chat.start();
