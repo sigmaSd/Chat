@@ -1,3 +1,9 @@
+## News
+
+I just noticied there is free api proxy project https://github.com/ayaka14732/ChatGPTAPIFree
+
+So all these hacks are not needed
+
 # Chat
 
 Deno api wrapper for the free ChatGpt Web interface
