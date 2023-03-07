@@ -2,7 +2,7 @@
 
 I just noticied there is free api proxy project https://github.com/ayaka14732/ChatGPTAPIFree
 
-So all these hacks are not needed
+So all these hacks might not be needed (if openai allows it to continue)
 
 # Chat
 
