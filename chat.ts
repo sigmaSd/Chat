@@ -12,7 +12,7 @@ export class Chat {
   #init = false;
 
   static start(opts?: ChatOpts) {
-    const { port } = opts ?? { port: 5423 } satisfies ChatOpts;
+    const { port } = opts ?? { port: 5420 } satisfies ChatOpts;
     const server = Deno.listen({ port });
 
     const chat = new Chat();
