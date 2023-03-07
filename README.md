@@ -26,9 +26,9 @@ console.log(await chat.chat("hello"));
 
 - Chat.start starts a webscket server
 - when you paste web.js in the web console of chatGpt page, it will open a
-  websockt and connect back to our servers
+  websockt and connect back to our server
 - Chat.chat sends our input to the chatgpt page, it will be inputed with an
-  enter event, then it try to use some heursitics to detect chatGpt answer and
+  enter event, then it tries to use some heursitics to detect chatGpt answer and
   send it back
 
 ## Nvim Plugin
