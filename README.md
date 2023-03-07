@@ -33,4 +33,4 @@ console.log(await chat.chat("hello"));
 
 ## Nvim Plugin
 
-TODO add link
+https://github.com/sigmaSd/chat.nvim
