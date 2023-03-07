@@ -1,9 +1,3 @@
-## News
-
-I just noticied there is free api proxy project https://github.com/ayaka14732/ChatGPTAPIFree
-
-So all these hacks might not be needed (if openai allows it to continue)
-
 # Chat
 
 Deno api wrapper for the free ChatGpt Web interface
@@ -45,3 +39,9 @@ https://github.com/sigmaSd/chat.nvim
 
 - [ ] Add a bing backend
 - [ ] Add an alterante API where the answer is streamed
+
+## News
+
+I just noticied there is free api proxy project https://github.com/ayaka14732/ChatGPTAPIFree
+
+So all these hacks might not be needed (if openai allows it to continue)
