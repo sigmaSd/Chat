@@ -37,4 +37,5 @@ https://github.com/sigmaSd/chat.nvim
 
 ## TODO
 
-Add a bing backend []
+- [ ] Add a bing backend
+- [ ] Add an alterante API where the answer is streamed
