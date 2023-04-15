@@ -39,7 +39,3 @@ https://github.com/sigmaSd/chat.nvim
 
 - [ ] Add a bing backend
 - [ ] Add an alterante API where the answer is streamed
-
-## Alternative
-
-There is free api proxy project https://github.com/ayaka14732/ChatGPTAPIFree
